@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "CV"
+title: "个人简历"
 permalink: /cv/
 author_profile: true
 redirect_from:
@@ -9,68 +9,71 @@ redirect_from:
 
 {% include base_path %}
 
-Education
+教育经历
 ======
-**University of Michigan – Ann Arbor**  
-*Master of Science in Biostatistics*, Expected May 2026
+**密歇根大学安娜堡分校（University of Michigan – Ann Arbor）**  
+*生物统计学硕士（Master of Science in Biostatistics）*  
+预计毕业时间：2026年5月
 
-**University of Illinois Urbana-Champaign**  
-*Bachelor of Science in Statistics, Minor in Economics*, Aug 2021 – May 2024  
-**GPA:** 3.69/4.00
+**伊利诺伊大学香槟分校（University of Illinois Urbana-Champaign）**  
+*统计学学士，辅修经济学*  
+2021年8月 – 2024年5月  
+**GPA：** 3.69 / 4.00
 
-Relevant Coursework
+相关课程
 ======
-* Applied Linear Algebra  
-* Data Management  
-* Statistics Programming  
-* Advanced Data Analysis  
-* Statistics and Probability  
-* Unsupervised Learning  
-* Statistical Modeling  
-* Nonparametric Test  
+- 应用线性代数  
+- 数据管理  
+- 统计编程  
+- 高级数据分析  
+- 统计学与概率论  
+- 无监督学习  
+- 统计建模  
+- 非参数检验
 
-Research Experience
+科研经历
 ======
-**Differential Analysis of Normal and Tumor Cancers in the Kidney**  
-*Institute of Biophysics, Chinese Academy of Sciences* — Beijing, China (May 2023 – Aug 2023)  
-- Cleaned 3,000+ raw kidney cancer samples in R; found WNK4 as most significant gene  
-- Used Cytoscape + edgeR for analysis and visualization across multiple algorithms  
-- Validated findings via qPCR and immunofluorescence on mouse bone marrow mesenchymal cells  
+**肾脏正常组织与肿瘤组织的差异分析研究**  
+*中国科学院生物物理研究所* --北京，中国（2023年5月 – 2023年8月）
+- 使用 R 清洗 3000+ 肾癌原始样本，筛选出 WNK4 为最显著基因  
+- 结合 Cytoscape 和 edgeR 进行可视化与差异分析  
+- 在小鼠骨髓间充质干细胞上通过 qPCR 和免疫荧光实验验证结果  
 
-Work Experience
+工作经历
 ======
-**Credit Operations Intern**  
-*Hangzhou Bank Co., Ltd.*, Hangzhou, China — *June 2021 – August 2021*  
-- Conducted industry analysis on 20+ clients for due diligence; drafted evaluation reports to help identify high-value customer segments  
-- Collected, cleaned, and verified credit application data; optimized workflows and improved data accuracy by 10%  
-- Analyzed 5-year business income trends in China; uncovered distributional bias and delivered insights for strategic decision-making  
+**信贷运营实习生**  
+*杭州银行股份有限公司，杭州，中国*  
+2021年6月 – 2021年8月  
+- 对 20+ 企业客户进行行业调研并撰写尽职调查报告  
+- 收集、清洗并核实信贷数据，提高准确性约 10%  
+- 分析 5 年全国企业收入趋势，提供战略建议支持   
 
-Projects
+项目经历
 ======
 
-**Pneumonia Patient Condition Classification using Diffusion Models & CLIP** *(Dec 2024)*  
-- Fine-tuned CLIP for pediatric X-ray classification: normal, bacterial, viral pneumonia  
-- Applied LoRA + Stable Diffusion to address class imbalance with synthetic images  
-- Boosted training accuracy from 48.94% → 50.51%, and evaluated test robustness  
+## **肺炎患者分类：扩散模型 + CLIP**（2024年12月）
+- 微调 CLIP 模型用于儿童 X 光图像三分类（正常 / 细菌性 / 病毒性）  
+- 利用 LoRA + Stable Diffusion 生成合成图像应对类别不平衡问题  
+- 准确率从 48.94% 提升至 50.51%，完成模型鲁棒性评估  
 
-**Hypertension & Alcohol Consumption Analysis using NHANES** *(Dec 2024)*  
-- Modeled effect of alcohol on SBP controlling for age, BMI, gender  
-- Found significant increase in SBP per drink/day and a slight negative age-alcohol interaction  
+## **饮酒与高血压关系分析（NHANES 数据）**（2024年12月）
+- 控制年龄、BMI、性别等因素，建模分析饮酒对收缩压的影响  
+- 显示每日饮酒量与 SBP 显著正相关，并存在年龄与饮酒的轻微负向交互作用  
 
-**Student Performance in R (2014 Secondary Dataset)** *(May 2024)*  
-- Explored socioeconomic impact on education via statistical models + clustering  
-- Led team of 3 to deliver a 15-page analysis report with rich visualizations  
+## **学生成绩预测分析（2014年数据）**（2024年5月）
+- 使用统计建模和聚类方法，探索社会经济地位对教育的影响  
+- 带领团队完成 15 页报告，配以图形展示与分析  
 
-**U.S. Presidential Voting Project** *(Feb 2023)*  
-- Processed 60,000+ vote records from all 51 states using Mixture Models  
-- Created 28 plots to summarize voter patterns and anomaly detection  
+## **美国总统选举聚类分析**（2023年2月）
+- 处理来自 51 个州的 60,000+ 投票记录，采用混合模型识别模式  
+- 生成 28 张可视化图表，辅助异常检测与选民行为理解  
 
-**Billboard Music Shiny App Project** *(Sep 2022)*  
-- Built an R Shiny dashboard for interactive Billboard chart analysis  
-- Used API to fetch real-time data; visualized trends in genre & artist popularity  
+## **Billboard 音乐榜 Shiny 仪表盘**（2022年9月）
+- 构建 R Shiny 应用程序，实现音乐榜单交互式分析  
+- 使用 API 实时抓取数据，分析流派与艺人热度趋势  
 
-Technical Skills
+专业技能
 ======
-**Languages:** English (Advanced), Mandarin (Native)  
-**Skills:** Excel (Advanced), Python (Advanced), R (Advanced), SQL (Median), C++ (Median),  
-GSEA, Cytoscape, Western Blot, qPCR
+**语言能力：**  英语（精通），中文（母语）
+**编程与分析工具：** Excel (精通), Python (精通), R (精通), Matlab（中等），SQL (中等), C++ (中等) 
+**生物信息与可视化工具：** GSEA, Cytoscape, Western Blot, qPCR
