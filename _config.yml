@@ -7,7 +7,7 @@
 # server process.
 
 # Basic Site Settings
-locale                   : "zh-CN"
+locale                   : "en-US"
 site_theme               : "jekyll-theme-midnight"
 title                    : "高硕远 / 个人网站"
 title_separator          : "-"
