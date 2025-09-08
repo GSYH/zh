@@ -13,9 +13,9 @@ title                    : "高硕远 / 个人网站"
 title_separator          : "-"
 name                     : &name "高硕远"
 description              : &description "密歇根大学生物统计学研究生，研究方向涵盖数据科学、公共卫生及机器学习领域。"
-url                      : "https://GSYH.github.io-zh-portfolio"
+url                      : "https://gsyh.zh.github.io"
 baseurl                  : "" 
-repository               : "GSYH/GSYH.github.io-zh-portfolio"
+repository               : "GSYH/gsyh.zh.github.io"
 
 
 author:
