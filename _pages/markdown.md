@@ -1,16 +1,16 @@
 ---
 permalink: /markdown/
-title: "Contact"
+title: "联系方式"
 author_profile: true
 ---
 
-## 💬 Get in Touch
+## 💬 联系我！
 
-Whether you're interested in data science collaboration, research opportunities, or just want to say hello, feel free to reach out!
+无论您对数据科学合作、研究机会感兴趣，还是只想打个招呼，都欢迎随时联系！
 
-- 📧 **Email**: [sygao@umich.edu](mailto:sygao@umich.edu)  
-- 💼 **LinkedIn**: [Shuoyuan Gao](https://www.linkedin.com/in/shuoyuan-gao-18701324a/)  
+- 📧 **邮件**: [sygao@umich.edu](mailto:sygao@umich.edu)  
+- 💼 **领英**: [Shuoyuan Gao](https://www.linkedin.com/in/shuoyuan-gao-18701324a/)  
 - 💻 **GitHub**: [GSYH](https://github.com/GSYH)  
-- 🌐 **Portfolio Site**: [GSYH.github.io](https://GSYH.github.io)
+- 🌐 **个人网站**: [GSYH.github.io](https://GSYH.github.io)
 
-Looking forward to connecting with you!
+期待你的联系！
