@@ -2,7 +2,7 @@
 
 欢迎访问我的个人网站与项目作品集！本网站使用**Jekyll**构建，并通过**GitHub Pages**托管。
 
-🌐 网站链接：[https://gsyh.github.io/gsyh.github.io-zh/)](https://gsyh.github.io/gsyh.github.io-zh/)
+🌐 网站链接：[https://gsyh.github.io/gsyh.github.io-zh/](https://gsyh.github.io/gsyh.github.io-zh/)
 
 ## 🔍 关于我
 
