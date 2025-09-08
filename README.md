@@ -2,7 +2,7 @@
 
 Welcome to my personal website and project portfolio built with **Jekyll** and hosted via **GitHub Pages**.
 
-🌐 View the website here: [https://gsyh.github.io](https://gsyh.github.io)
+🌐 View the website here: [https://gsyh.github.io-zh-portfilio](https://gsyh.github.io-zh-portfilio)
 
 ## 🔍 About
 
