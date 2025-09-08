@@ -7,25 +7,24 @@
 # server process.
 
 # Basic Site Settings
-locale                   : "en-US"
+locale                   : "zh-CN"
 site_theme               : "jekyll-theme-midnight"
-title                    : "Shuoyuan Gao / My Portfolio"
+title                    : "高硕远 / 个人网站"
 title_separator          : "-"
-name                     : &name "Shuoyuan Gao"
-description              : &description "Graduate Student in Biostatistics at the University of Michigan, interested in data science, public health, and machine learning"
-url                      : "https://GSYH.github.io"
+name                     : &name "高硕远"
+description              : &description "密歇根大学生物统计学研究生，研究方向涵盖数据科学、公共卫生及机器学习领域。"
+url                      : "https://GSYH.github.io-zh-portfolio"
 baseurl                  : "" 
-repository               : "GSYH/GSYH.github.io"
+repository               : "GSYH/GSYH.github.io-zh-portfolio"
 
 
 author:
   # Biographic information
   avatar           : "profile.jpg"
-  name             : "Shuoyuan Gao"
-  pronouns         : "He/Him"  
-  bio              : "M.S. Biostatistics @ University of Michigan | Public Health + Data Science Enthusiast"
-  location         : "Ann Arbor, MI"
-  employer         : "University of Michigan at Ann Arbor"
+  name             : "高硕远" 
+  bio              : "密歇根大学生物统计学硕士 | 公共卫生 + 数据科学爱好者"
+  location         : "中国北京"
+  employer         : "密歇根大学安娜堡分校"
   uri              : # URL
   email            : "sygao@umich.edu"
 
