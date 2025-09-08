@@ -1,33 +1,33 @@
-# Shuoyuan Gao's Portfolio
+# 高硕远的个人作品集网站
 
-Welcome to my personal website and project portfolio built with **Jekyll** and hosted via **GitHub Pages**.
+欢迎访问我的个人网站与项目作品集！本网站使用**Jekyll**构建，并通过**GitHub Pages**托管。
 
-🌐 View the website here: [https://gsyh.github.io-zh-portfilio](https://gsyh.github.io-zh-portfilio)
+🌐 网站链接：[https://gsyh.github.io-zh-portfilio](https://gsyh.github.io-zh-portfilio)
 
-## 🔍 About
+## 🔍 关于我
 
-This site showcases a collection of my academic, data science, and visualization projects, including:
-- 🎵 **Billboard Hot 100 Shiny App**
-- 🦠 **COVID-19 Clustering & Linear Modeling**
-- 🇺🇸 **U.S. Election Clustering Analysis**
-- 🧠 **Hypertension Risk Modeling**
-- 📚 **Student Performance Prediction**
-- 🫁 **Pneumonia X-Ray Classification (CNN)**
+本网站展示了我在学术研究、数据科学和可视化方面的一系列项目，包括：
+- 🎵 **Billboard 最火100首歌曲 Shiny 应用**
+- 🦠 **新冠疫情的聚类分析与线性建模**
+- 🇺🇸 **2016年美国总统大选的聚类分析**
+- 🧠 **高血压风险建模**
+- 📚 **学生表现预测模型**
+- 🫁 **肺炎X光影像分类（卷积神经网络）**
 
-## 🛠️ Technologies
+## 🛠️ 使用技术
 
-- **R & Shiny** – Dashboard development and statistical modeling  
-- **Python** – Visualization using `matplotlib`, `seaborn`, and `plotly`  
-- **SAS** – Used for clustering analysis and classical statistics  
-- **Tableau** – Interactive dashboard prototypes  
-- **Jekyll** – Static site generation  
-- **GitHub Pages** – Hosting
+- **R & Shiny** – 用于开发交互式仪表盘和统计建模  
+- **Python** – 使用 `matplotlib`, `seaborn`, and `plotly`进行可视化
+- **SAS** – 用于聚类分析和传统统计方法 
+- **Tableau** – 交互式仪表盘原型设计 
+- **Jekyll** – 静态网站生成工具 
+- **GitHub Pages** – 网站托管服务
 
-## 📂 Project Structure
+## 📂 网站结构
 
 ```text
-📁 _portfolio         # Individual project pages
-📁 _publications      # Data visualization showcases
-📁 files/             # PDFs and images
-📁 images/            # Supporting visual content
-_config.yml           # Site configuration
+📁 _portfolio         # 单个项目页面
+📁 _publications      # 数据可视化展示
+📁 files/             # PDF 文件和图片资源
+📁 images/            # 网站用的图片资源
+_config.yml           # 网站配置文件
