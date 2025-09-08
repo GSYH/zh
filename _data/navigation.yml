@@ -9,17 +9,17 @@
 
 # main links
 main:
-  - title: "About"
+  - title: "关于我"
     url: /about/
 
-  - title: "Projects"
+  - title: "项目经历"
     url: /portfolio/
 
-  - title: "Data Viz"
+  - title: "数据可视化"
     url: /datavis/
 
-  - title: "CV"
+  - title: "个人简历"
     url: /cv/
 
-  - title: "Contact"
+  - title: "联系方式"
     url: /markdown/
