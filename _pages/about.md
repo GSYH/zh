@@ -37,4 +37,4 @@ redirect_from:
 
 ---
 
-欢迎随时探索我的 [作品集](/portfolio/), 个人简历](/cv/), 或者联系[联系](mailto:sygao@umich.edu)!
+欢迎随时探索我的 [作品集](/portfolio/), 个人简历](/cv/), 或者[联系](mailto:sygao@umich.edu)!
