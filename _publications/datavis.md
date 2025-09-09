@@ -1,120 +1,122 @@
 ---
-title: "Data Visualization"
+title: "数据可视化"
 collection: publications
 permalink: /datavis/
 author_profile: true
 layout: single
 ---
 
-## 📊 Data Visualization Projects
+## 📊 数据可视化项目
 
-This page showcases visual storytelling projects from previous Project units using R, Python, SAS, and Tableau.
+本页面展示了往期项目单元中的可视化叙事作品，使用了 R、Python、SAS 和 Tableau 等工具完成。
 
 ---
 
-# 🦠 COVID-19 Trends (R)
-Visual analysis of global and continent-level COVID-19 cases and deaths using public datasets.  
-Tools: R (ggplot2, dplyr), Tableau, and Python.
+# 🦠 新冠疫情的趋势分析 (R)
+使用公共数据集对全球及各大洲 COVID-19 病例和死亡数据进行可视化分析。
+工具：R（ggplot2、dplyr）、Tableau 和 Python。
 
-## Pandemic across U.S. regions with wave intervals
+## 疫情在美国各大区域的传播趋势及分波段分析
 
-![Global Cases Over Time](/files/p1.png)
+![时间推移的全球病例](/files/p1.png)
 
-
-## CFR By Wave
+## 各波次的病死率（CFR）变化趋势  
 ![Continent Trends Cases](/files/p4.png)  
 
-## Wave-wise Excess Mortality vs. Case Rate
-![Continent Trends Deaths](/files/p5.png)
-![Summary Heatmap](/files/p6.png)
+---
+## 各波次中超额死亡率与确诊率的关系  
+![Continent Trends Deaths](/files/p5.png)  
+![Summary Heatmap](/files/p6.png)  
 
-## Heatmaps displaying wave-specific death rate classifications across states
-![Heatmaps displaying wave-specific death rate classifications across states](/files/p2.jpg)
+---
+## 各州在不同波次的死亡率热力图分类展示  
+![Heatmaps displaying wave-specific death rate classifications across states](/files/p2.jpg)  
 
-## Bar plots highlighting the top and bottom 3 states by death rate in each wave
+---
+## 各波次中死亡率最高与最低的三个州柱状图展示  
 ![Bar plots highlighting the top and bottom 3 states by death rate in each wave](/files/p3.jpg)
-
 
 ---
 
 # 🎵 Billboard Music Trends (Shiny App)
 
-An interactive dashboard analyzing Billboard Top 100 data, with song rankings, artist performance, and album covers.
+一个交互式仪表板，分析 Billboard Top 100 数据，包含歌曲排名、艺术家表现以及专辑封面等内容。
 
-🌐 [Launch App](https://nl1z0n-shuoyuan-gao.shinyapps.io/shiny_app/)
+🌐 [点击启动应用](https://nl1z0n-shuoyuan-gao.shinyapps.io/shiny_app/)
 
-![Billboard Screenshot](/files/shinyapp.jpg)
+![Billboard 截图](/files/shinyapp.jpg)
+
 
 ---
 
-### 📈 Student Performance Analysis (SAS)
+### 📈 葡萄牙学生成绩分析 (SAS)
 
-**Summary:** Used clusters and regression lines to uncover patterns in student grades, attendance, and demographic characteristics.
+**总结：** 通过聚类分析和回归线揭示学生成绩、出勤率和人口统计特征之间的模式关系。
 
 ![Student Plot](/files/student.jpg)
 
 ---
 
-# 🇺🇸 U.S. Election Data Clustering (Python)
+# 🇺🇸 2016美国总统大选聚类分析 (Python)
 
-## Silhouette Plot (12 Clusters)
+## 轮廓分数图（Silhouette Plot）(12个聚类)
 ![Silhouette Plot](/files/sc.jpg)
 
-## Optimal Number of Clusters – Silhouette Score
+## 最优聚类数：基于轮廓系数
 ![Silhouette Score Line](/files/elbow.jpg)
 
-## t-SNE Visualization
+## t-SNE 聚类可视化
 ![t-SNE Cluster Plot](/files/cl.jpg)
 
-## Elbow Method (Synthetic)
+## 肘部法则 (Elbow Method)
 ![Elbow Synthetic](/files/elbow1.jpg)
 
-## Candidate Vote Correlation Heatmap
+## 候选人得票率相关性热图
 ![Correlation Heatmap](/files/heat.jpg)
 
-## Scatter Plot of Candidate Percentages
+## 候选人得票率散点图
 ![Candidate Scatter](/files/1.jpg)
 
 ---
 
-# 🧬 Kidney Cancer Expression Visualization
+# 🧬 肾癌表达可视化分析
 
-This project compares gene expression between **normal** and **tumor** kidney tissues to identify significant biological differences using volcano plots, pathway enrichment, protein interaction networks, and density comparisons.
+本项目通过火山图、通路富集分析、蛋白质相互作用网络和密度分布图等方法，比较**正常**肾组织与**肿瘤**肾组织的基因表达差异，从而识别重要的生物学差异。
 
 
-## 🌋 Volcano Plot of Differential Expression
+## 🌋 差异表达火山图
 
 ![Volcano Plot](/files/6.jpg)
 
 ---
 
-## 📊 Expression Density Distribution
+## 📊 表达密度分布图
 
 ![Expression Density](/files/5.jpg)
 
 ---
 
-## 🎯 KEGG Pathway Enrichment
+## 🎯 KEGG 通路富集分析图
 
 ![Pathway Dot Plot](/files/4.jpg)
 
 ---
 
-## 🔗 Protein Interaction Network
+## 🔗 蛋白质相互作用网络图
 
 ![Gene Network](/files/2.jpg)
 
 ---
 
-## 📈 NES vs. Significance
+## 📈 富集分数 (NES) 与显著性关系图
 
 ![NES vs Significance](/files/3.jpg)
 
 ---
 
-### Tools & Technologies
+### 使用工具与技术
 
-- **R**: ggplot2, shiny, dplyr, tidyr, DT, httr, jsonlite  
-- **Python**: matplotlib, seaborn, scikit-learn, pandas, numpy  
-- **SAS**: Used for clustering analysis and educational data modeling  
-- **Tableau**: Used for interactive dashboards and visual storytelling  
+- **R 语言**：使用了 `ggplot2`、`shiny`、`dplyr`、`tidyr`、`DT`、`httr` 和 `jsonlite` 等包进行数据清洗、可视化与交互式开发  
+- **Python**：应用了 `matplotlib`、`seaborn`、`scikit-learn`、`pandas`、`numpy` 进行可视化与建模  
+- **SAS**：用于聚类分析及教育类数据建模  
+- **Tableau**：用于构建交互式仪表盘和数据可视化故事展示   
