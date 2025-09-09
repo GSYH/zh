@@ -8,7 +8,7 @@ permalink: /portfolio/pneumonia/
 date: 2024-11-17
 ---
 
-!胸部X光片示例](/images/samplexray.jpg)
+![胸部X光片示例](/images/samplexray.jpg)
 
 ## 项目概述
 
