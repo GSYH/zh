@@ -1,53 +1,52 @@
 ---
-title: "Student Performance Analysis Using SAS"
+title: "使用 SAS 进行学生成绩分析"
 permalink: /projects/student-performance/
 author_profile: true
 collection: portfolio
 date: 2024-05-15
 ---
 
-This project investigates how different demographic and educational factors affect student performance.
+本项目旨在研究不同的人口统计与教育因素如何影响学生的学业表现。
 
 ---
 
-## Project Overview
+## 项目概述
 
-This project investigates factors influencing student academic performance using data from two Portuguese schools. The primary outcome variable is the final grade (G3) in a Portuguese language course. We employed descriptive analysis, multiple linear regression, Poisson log-linear modeling, and cluster analysis to identify significant predictors of student success.
+本研究使用来自葡萄牙两所学校的数据，探讨影响学生在葡萄牙语课程中最终成绩（G3）的因素。我们采用描述性分析、多元线性回归、泊松对数线性建模和聚类分析，以识别学生学业成功的重要预测变量。
 
-## Team
-- Shuoyuan Gao: Descriptive analysis of categorical variables, Cluster analysis  
-- Yufei Duan: Numeric variable analysis, Linear modeling, Variable selection  
-- Zhongwen Shen: Multiple regression modeling, Model evaluation
+## 团队成员
+- **高硕远**: 分类变量的描述性分析，聚类分析
+- Yufei Duan: 数值变量分析，线性建模，变量选择  
+- Zhongwen Shen: 多元回归建模，模型评估
 
-## Methodology
+## 方法概览
 
-- **Data cleaning**: Removed students with a final grade (G3) of 0.
-- **Exploratory analysis**: Examined both numeric (e.g., age, study time, parental education) and categorical variables (e.g., gender, family support).
-- **Modeling**:
-  - Multiple linear regression to predict G3.
-  - Over-dispersed Poisson log-linear model.
-  - Hierarchical cluster analysis based on selected predictors.
+- **数据清洗**：移除最终成绩（G3）为 0 的学生数据  
+- **探索性分析**：检查数值变量（如年龄、学习时间、父母教育水平）和分类变量（如性别、家庭支持）  
+- **建模过程**：
+  - 多元线性回归预测 G3  
+  - 考虑过度离散的泊松对数线性模型  
+  - 基于选定变量的层次聚类分析  
 
-## Key Findings
+## 主要发现
 
-- **Significant predictors of G3**:
-  - **Failures**: Each additional failure decreased G3 by ~1.72 points.
-  - **Study time**: Positively associated with G3.
-  - **Mother’s education**: Higher education linked with better student outcomes.
-  - **Workday alcohol consumption (Dalc)**: Negatively associated with G3.
+- **G3 的显著预测因子**：
+  - **历史挂科次数（failures）**：每增加一次挂科，G3 下降约 1.72 分  
+  - **学习时间（study time）**：与 G3 正相关  
+  - **母亲受教育程度**：教育水平越高，学生成绩越好  
+  - **工作日饮酒量（Dalc）**：与 G3 负相关
 
-- **Best model**: The **linear regression model** had the best balance of fit and complexity (Adjusted R² = 0.3461).
+- **最佳模型**：**线性回归模型**在拟合度与模型复杂度之间取得了最佳平衡（调整后 R² = 0.3461）
 
-- **Clustering** revealed distinct student profiles based on performance-related features.
+- **聚类分析**：揭示了基于绩效特征的不同学生群体画像
 
+## 代码部分
 
+本项目识别了影响学生成绩的重要学术和社会人口学因素，为教育工作者和政策制定者提供了宝贵的参考。
 
-## Code Part
+## 🔍 分析方法
 
-This study identifies critical academic and socio-demographic factors affecting student performance. The analysis offers valuable insights for educators and policymakers aiming to support diverse student needs.
-## 🔍 Methods
-
-The analysis was performed using SAS. Below is a snippet of the SAS code used in the analysis:
+本分析采用 SAS 完成。以下是部分使用的 SAS 代码示例：
 
 ```sas
 proc import datafile="/path/student-marks.csv" out=student dbms=csv replace;
@@ -65,10 +64,10 @@ proc logistic data=student_clean;
 run;
 ```
 
-### 📎 Full Report
+### 📎 完整报告
 
-[📄 View Full Report (PDF)](/files/student_performance_report.pdf)
+[📄 点击阅读完整报告 (PDF)](/files/student_performance_report.pdf)
 
-## Reference
+## 参考文献
 
 Cortez, Paulo. (2014). *Student Performance*. UCI Machine Learning Repository. [https://doi.org/10.24432/C5TG7T](https://doi.org/10.24432/C5TG7T)
