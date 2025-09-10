@@ -25,4 +25,5 @@ main:
     url: /markdown/
 
   - title: "English"
-    url: 
+    url: https://gsyh.github.io/
+    external: true
